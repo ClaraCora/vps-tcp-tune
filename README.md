@@ -22,7 +22,7 @@ apt update -y && apt install curl -y
 
 ```bash
 # 安装别名
-bash <(curl -fsSL "https://raw.githubusercontent.com/Eric86777/vps-tcp-tune/main/install-alias.sh?$(date +%s)")
+bash <(curl -fsSL "https://raw.githubusercontent.com/ClaraCora/vps-tcp-tune/main/install-alias.sh?$(date +%s)")
 
 # 重新加载配置
 source ~/.bashrc  # 或 source ~/.zshrc
@@ -45,13 +45,13 @@ bbr
 
 ```bash
 # 推荐：使用时间戳参数确保获取最新版本（无缓存）
-bash <(curl -fsSL "https://raw.githubusercontent.com/Eric86777/vps-tcp-tune/main/net-tcp-tune.sh?$(date +%s)")
+bash <(curl -fsSL "https://raw.githubusercontent.com/ClaraCora/vps-tcp-tune/main/net-tcp-tune.sh?$(date +%s)")
 ```
 
 ### 方式3：下载到本地
 
 ```bash
-wget -O net-tcp-tune.sh "https://raw.githubusercontent.com/Eric86777/vps-tcp-tune/main/net-tcp-tune.sh?$(date +%s)"
+wget -O net-tcp-tune.sh "https://raw.githubusercontent.com/ClaraCora/vps-tcp-tune/main/net-tcp-tune.sh?$(date +%s)"
 chmod +x net-tcp-tune.sh
 ./net-tcp-tune.sh
 ```
@@ -280,10 +280,10 @@ A: 是的，首次安装内核后必须重启服务器。后续修改参数（�
 
 如果这个脚本对你有帮助，欢迎 Star！
 
-[![GitHub stars](https://img.shields.io/github/stars/Eric86777/vps-tcp-tune?style=social)](https://github.com/Eric86777/vps-tcp-tune)
+[![GitHub stars](https://img.shields.io/github/stars/ClaraCora/vps-tcp-tune?style=social)](https://github.com/ClaraCora/vps-tcp-tune)
 
 ## Star History
 
-<a href="https://star-history.com/#Eric86777/vps-tcp-tune&Date">
-  <img src="https://api.star-history.com/svg?repos=Eric86777/vps-tcp-tune&type=Date" alt="Star History Chart" width="600">
+<a href="https://star-history.com/#ClaraCora/vps-tcp-tune&Date">
+  <img src="https://api.star-history.com/svg?repos=ClaraCora/vps-tcp-tune&type=Date" alt="Star History Chart" width="600">
 </a>
